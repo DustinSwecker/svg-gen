@@ -19,7 +19,13 @@ Upon filling out the prompts, the file will log to the terminal that it "Generat
 
 Open the new file and you will see the following: 
 
-![Svg Example](/images/svg-file-output.png)
+![Svg code output](/images/svg-file-output.png)
+
+Finally, open the file into a browser and see the results!
+
+![Example svgs](/images/example-svgs.png)
+
+
 
 ## License
 
