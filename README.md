@@ -13,13 +13,13 @@ In order to install this project, clone the project from github into your local 
 In order to use this project, one should open their terminal in their IDE (use cntl + ` for example with VS Code) and then type 'node index.js' into the terminal. This will activate the inquirer prompt:
 
 
-    ![Inquirer Prompt](svg/images/inquirer_prompt.png)
+    ![Inquirer Prompt](./images/inquirer_prompt.png)
 
 Upon filling out the prompts, the file will log to the terminal that it "Generated your file name" and a new file based on the name you selected will be generated.
 
 Open the new file and you will see the following: 
 
-    ![Svg Example](svg/images/svg-file-output)
+    ![Svg Example](./images/svg-file-output)
 
 ## License
 
