@@ -3,5 +3,29 @@
     "inquirer": "^8.2.4",
     "inquirer-maxlength-input-prompt": "^1.0.2",
     "jest": "^29.5.0"
-  }
+  },
+  "name": "svg",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DustinSwecker/svg-gen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DustinSwecker/svg-gen/issues"
+  },
+  "homepage": "https://github.com/DustinSwecker/svg-gen#readme"
 }

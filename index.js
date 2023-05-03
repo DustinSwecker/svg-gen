@@ -1,9 +1,11 @@
 const inquirer = require('inquirer');
-const jest = require('jest');
+
 const fs = require('fs');
 const MaxLengthInputPrompt = require('./node_modules/inquirer-maxlength-input-prompt');
 inquirer.registerPrompt('maxlength-input', MaxLengthInputPrompt);
-const makeShape = require('./lib/shapes');
+const { makeShape } = require('./lib/shapes');
+
+
 
 function getUserInput() {
     inquirer
@@ -37,6 +39,7 @@ function getUserInput() {
         name: 'file-name',
     }]) 
     .then((answers)=> {
+        console.log(answers);
         
         fs.writeFile(answers['file-name'], makeShape(answers), (err)=> {
             err ? console.log(err) : console.log(`Generated ${answers['file-name']}`)
