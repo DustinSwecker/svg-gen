@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is to design and deliver an SVG graphic made via node.js prompts from inquirer. The point of doing this project was to make it easier to design logos on the fly for various projects. During creating this project, I was able to gather learn more about how to implement and design classes, in particular, how to utilize inheritance.
+This project is to design and deliver an SVG graphic made via node.js prompts from inquirer. The point of doing this project was to make it easier to design logos on the fly for various projects. During the creation of this project, I was able to gather learn more about how to implement and design classes, in particular, how to utilize inheritance.
 
 ## Installation
 
